@@ -1,5 +1,6 @@
 .ularticle {
-display: inline-flex;
+    display: inline-flex;
+    flex-flow: column wrap;
 }
 
 .buscar {
