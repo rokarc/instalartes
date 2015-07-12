@@ -1,0 +1,135 @@
+/*para refresca, tipo F5, el doc cada treinta seg
+ * <meta http-equiv="refresh" content="30">
+ */
+
+
+#wrapper {
+    background-color: #A0A0A0;
+    max-width: 790px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    min-height: 1300px;
+}
+
+.content {
+    display:                   flex;
+    font-size:                 15px;
+    padding:                   43px;
+    margin-left:               0;
+    height:                    50%;
+    width:                     100%;
+    margin-top:                200px;
+}
+
+
+
+
+
+.nav {
+    background-blend-mode:     multiply;
+    background:                yellow;
+    background-position:       0 0, 0 0, 5em 5em, 5em 5em;
+    background-size:           10em 10em;
+    border:                    1px dotted #F0D471;
+    border-radius:             9px;
+    line-height:               50px;
+    min-width:                 150px;
+    margin-left:               70%;
+    margin-right:              30%;
+    font-size:                 20px;
+    padding:                   15px;
+    text-align:                center;
+}
+
+
+.section {
+    background-color:          #fff;
+    border:                    1px dotted #fff;
+    border-radius:             9px;
+    font-size:                 18px;
+    margin-left:               2%;
+    margin-right:              2%;
+    line-height:               21px;
+    padding:                   13px;
+    width:                     220px;
+    height:                    220px;
+
+}
+
+
+
+
+
+
+
+#footer {
+    background-color:          #F0D471;
+    border:                    1px dotted #F0D471;
+    border-radius:             9px;
+
+    color:                     black;
+
+    margin-left:               6px;
+
+    padding:                   10px;
+
+    text-align:                center;
+
+    width:                     96%;
+}
+
+
+
+
+#contenidoppal {
+    width: 70%;
+    height: 650px;
+    background-color: #0ff;
+    float: left;
+    min-height: 1250px;
+}
+
+#pubfija {
+    top: 44%;
+    left: 80%;
+    right: 30%
+    width:10em;
+    height:16.5em;
+    margin-top: -1em; /*set to a negative number 1/2 of your height*/
+        margin-left: -15em; /*set to a negative number 1/2 of your width*/
+            border: 0;
+            /*background-color: transparent;*/
+            position:fixed;
+}
+
+
+#cabecera {
+    border-color: black;
+    display: inline;
+    color: black;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    top: -1px;
+    width: 100% !important;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-color: black;
+    position:fixed;
+/*    padding-left: 5%;*/
+    padding-right: 10%;
+    z-index: 10000;
+    }
+
+
+
+
+
+
+.clear {
+    clear: both;
+}
