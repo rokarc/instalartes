@@ -2,23 +2,3 @@
     display: inline-flex;
     flex-flow: column wrap;
 }
-
-.buscar {
-    width: 55%
-}
-
-.enviar {
-    width: 25%
-}
-
-.fnt1 {
-    font-size: 15px;
-}
-
-.fntparra {
-    font-size: 12px;
-}
-
-.fnttit {
-    font-size: 15px;
-}
