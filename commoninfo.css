@@ -2,8 +2,9 @@
 
 
 /*commoninfo.css*/
+
 html, body {
-    background-color:      black;
+    background-image:      url(/imagenes/gridme/gridme.png);
     height:                100%;
     width:                 100%;
     margin:                0;
