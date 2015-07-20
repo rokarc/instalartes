@@ -1,0 +1,114 @@
+@charset utf-8;
+
+
+#wrapper {
+    background-color:      lightgrey;
+    height:                100%;
+    min-height:            1300px;
+    margin-left:           auto;
+    margin-right:          auto;
+    margin-top:            37px;
+    max-width:             800px;
+    width:                 100%;
+}
+
+
+.content {
+    display:               flex;
+    font-size:             15px;
+    height:                45%;
+    margin-left:           0;
+    margin-top:            244px;
+    padding:               43px;
+    width:                 60%;
+}
+
+
+.nav {
+    background:            yellow;
+    background-size:       10em 10em;
+    border:                1px dotted #F0D471;
+    border-radius:         9px;
+    font-size:             20px;
+    line-height:           50px;
+    margin-left:           70%;
+    margin-right:          30%;
+    min-width:             150px;
+    padding:               15px;
+    text-align:            center;
+}
+
+
+.section {
+    background-color:      #fff;
+    border:                0;
+    border-radius:         9px;
+    font-size:             18px;
+    height:                220px;
+    margin:                5px;
+    padding:               5px;
+    width:                 220px;
+}
+
+
+#footer {
+    background-color:      #0E1433;
+    border-radius:         9px;
+    color:                 white;
+    margin:                3px;
+    padding:               5px;
+    text-align:            center;
+    position:              fixed;
+    bottom:                0;
+    min-width:             785px;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+
+#contenidoppal {
+    background-color:      #0ff;
+    float:                 left;
+    height:                650px;
+    min-height:            1250px;
+    width:                 70%;
+}
+
+
+#pubfija {
+    background-color:      transparent;
+    border:                0;
+    bottom:                10%;
+    -moz-box-shadow:       0 1px 3px rgba(0, 0, 0, 1);
+    -o-box-shadow:         0 1px 3px rgba(0, 0, 0, 1);
+    -webkit-box-shadow:    0 1px 3px rgba(0, 0, 0, 1);
+    box-shadow:            0 1px 3px rgba(0, 0, 0, 1);
+    height:                14em;
+    position:              fixed;
+    right:                 -200px;
+    width:                 10em;
+}
+
+
+#cabecera {
+    background-color:      black;
+    border-color:          black;
+    color:                 black;
+    display:               inline;
+    font-family:           Oxygen,Arial,Helvetica,sans-serif;
+    font-size:             15px;
+    height:                200px;
+    margin-left:           auto;
+    margin-right:          auto;
+    max-width:             800px;
+    position:              fixed;
+    top:                   -1px;
+    width:                 100% !important;
+    z-index:               10000;
+}
+
+
+.clear {
+    clear:                 both;
+}
