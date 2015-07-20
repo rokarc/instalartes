@@ -1,14 +1,19 @@
 @charset utf-8;
 
 
-/*commoninfo.css*/
+/*base.css*/
+
 
 html, body {
-    background-image:      url(/imagenes/gridme/gridme.png);
+    background-color:      white;
+    background-image:      linear-gradient(lightgrey 1px, transparent 1px),
+                           linear-gradient(90deg, lightgrey 1px, transparent 1px);
+    background-size:       50px 50px, 50px 50px;
+    /*background-image:      url(imagenes/gridme.png);*/
     height:                100%;
-    width:                 100%;
     margin:                0;
     padding:               0;
+    width:                 100%;
 }
 
 
@@ -36,8 +41,8 @@ body {
   padding-right:           10px;
   position:                fixed;
   right:                   73%;
-  top:                     224px;
   text-align:              right;
+  top:                     224px;
   z-index:                 10000;
 }
 
@@ -158,6 +163,13 @@ body {
     right:                 1px;
 }
 
+
+.ularticle {
+    display:               inline-flex;
+    flex-flow:             column wrap;
+}
+
+
 .listasmenu {
     fontcolor:             #000;
     display:               list;
@@ -170,6 +182,7 @@ body {
     padding:               15px;
 }
 
+
 #p2 {
     color:                 black;
     font-size:             15px;
@@ -177,44 +190,51 @@ body {
     padding:               2px;
 }
 
+
 .rsoc-f {
-    background-color: gray;
-    border-radius: 100px;
-    color: white;
-    display: inline-table;
-    font-size: 32px;
-    height: 2px;
-    line-height: 10px;
-    margin-right: 6px;
-    margin-left: 12px;
-    margin-top: 5px;
-    padding: 3px;
-    padding-left: 6px;
-    padding-right: 8px;
-    text-align: center;
-    width: 26px;
-    height: 26px;
-    text-decoration: none;
+    background-color:      gray;
+    border-radius:         100px;
+    color:                 white;
+    display:               inline-table;
+    font-size:             32px;
+    height:                26px;
+    height:                2px;
+    line-height:           10px;
+    margin-left:           12px;
+    padding-left:          6px;
+    margin-right:          6px;
+    margin-top:            5px;
+    padding:               3px;
+    padding-right:         8px;
+    text-align:            center;
+    text-decoration:       none;
+    width:                 26px;
 }
 
+
 .rsoc-t {
-    background-color: gray;
-    border-radius: 100px;
-    color: white;
-    display: inline-table;
-    font-size: 32px;
-    height: 2px;
-    line-height: 10px;
-    margin-right: 13px;
-    margin-left: 16px;
-    margin-top: 5px;
-    padding: 3px;
-    padding-left: 6px;
-    padding-right: 8px;
-    text-align: center;
-    width: 26px;
-    height: 26px;
-    text-decoration: none;
+    background-color:      gray;
+    border-radius:         100px;
+    color:                 white;
+    display:               inline-table;
+    font-size:             32px;
+    height:                26px;
+    height:                2px;
+    line-height:           10px;
+    margin-left:           16px;
+    padding-left:          6px;
+    margin-right:          13px;
+    margin-top:            5px;
+    padding:               3px;
+    padding-right:         8px;
+    text-align:            center;
+    text-decoration:       none;
+    width:                 26px;
+}
+
+
+.rsoc-f a, .rsoc-t a {
+    color:                 white;
 }
 
 
@@ -224,14 +244,16 @@ body {
 @media screen and (max-width:790px) {
 
     .nav a {
-        display: none;
+        display:           none;
     }
+
 
     .article1 {
         height:            20%;
         margin:            3px;
         width:             80%;
     }
+
 
     .article2 {
         display:           none;
