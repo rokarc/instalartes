@@ -27,23 +27,16 @@ body {
   background:              #2A3F9C;
   border:                  1px solid #2A3F9C;
   -moz-border-radius:      5px;
-  -ms-border-radius:       5px;
-  -o-border-radius:        5px;
-  -webkit-border-radius:   5px;
   border-radius:           5px;
   -moz-box-shadow:         0 1px 3px rgba(0, 0, 0, 1);
-  -o-box-shadow:           0 1px 3px rgba(0, 0, 0, 1);
-  -webkit-box-shadow:      0 1px 3px rgba(0, 0, 0, 1);
   box-shadow:              0 1px 3px rgba(0, 0, 0, 1);
   height:                  50px;
-  left:                    0;
-  margin-right:            -382px;
-  padding-right:           10px;
   position:                fixed;
-  right:                   73%;
-  text-align:              right;
+  right:                   60%;
+  text-align:              center;
   top:                     224px;
   z-index:                 10000;
+  min-width:               200px;
 }
 
 

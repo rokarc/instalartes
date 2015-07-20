@@ -52,7 +52,7 @@
 
 
 #footer {
-    background-color:      #0E1433;
+    background-color:      #2A3F9C;
     border-radius:         9px;
     color:                 white;
     margin:                3px;
@@ -77,17 +77,14 @@
 
 
 #pubfija {
-    background-color:      transparent;
     border:                0;
-    bottom:                10%;
+    bottom:                5%;
     -moz-box-shadow:       0 1px 3px rgba(0, 0, 0, 1);
-    -o-box-shadow:         0 1px 3px rgba(0, 0, 0, 1);
-    -webkit-box-shadow:    0 1px 3px rgba(0, 0, 0, 1);
     box-shadow:            0 1px 3px rgba(0, 0, 0, 1);
-    height:                14em;
+    height:                10em;
     position:              fixed;
-    right:                 -200px;
-    width:                 10em;
+    right:                 -30%;
+    width:                 11em;
 }
 
 
